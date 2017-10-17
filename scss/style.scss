@@ -1,0 +1,51 @@
+$bg-color: #F1E9DA;
+$link-text-color: #fff;
+$button-bg-1: #541388;
+$button-bg-2: #D90368;
+$button-bg-3: #104547;
+$button-bg-4: #4F000B;
+$button-bg-5: #F28123;
+$border-radius: 6px;
+$overlay-color: #fff;
+
+.button-effect {
+  padding: 30px 0px; 
+  
+  h2 {
+    font: {
+      family: 'Droid Serif', serif;
+      size: 20px;
+    }
+    margin-bottom: 40px;
+  }
+  
+  a {
+    margin-right: 17px;
+    
+    &:nth-child(2) {
+      background-color: $button-bg-1;
+    }
+    
+    &:nth-child(3) {
+      background-color: $button-bg-2;
+    }
+    
+    &:nth-child(4) {
+      background-color: $button-bg-3;
+    }
+    
+    &:nth-child(5) {
+      background-color: $button-bg-4;
+    }
+    
+    &:nth-child(6) {
+      background-color: $button-bg-5;
+    }
+    
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+}
+}
